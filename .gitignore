@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+
+# Виртуальные окружения
+.venv/
+
+# Локальные настройки Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Статические и медиа файлы (генерируются в продакшене)
+staticfiles/
+media/
+
+# Файлы кэша и временные файлы
+*.cache
+*.bak
+*.swp
+*~
+
+# IDE и редакторы
+.idea/  # PyCharm
+.vscode/  # Visual Studio Code
+
+# Документация и прочие файлы
+/docs/_build/
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+*.pot
+*.mo
+
+# Тестовые файлы и покрытие
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Pipenv
+Pipfile.lock.bak
+
+# Docker
+*.dockerignore
+docker-compose.override.yml
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
